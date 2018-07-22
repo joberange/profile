@@ -21,6 +21,11 @@ footer{
     background-color: black;
     padding: 20px 10px;
     text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
 }
 
 footer li{
@@ -34,10 +39,17 @@ footer li{
 
 }
 
-/* .pic,
-.text{
-    float: left;
-} */
+.card{
+    width: 400px;
+    text-align: center;
+    float:left;
+    margin: 50px;
+}
+ .pic{
+    width: 350px;
+    height: auto;
+
+ }
 
 .logo{
     float: left;
