@@ -1,0 +1,98 @@
+header{
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header li{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 25px;
+
+}
+
+footer{
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+footer li{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 25px;
+
+}
+
+/* .pic,
+.text{
+    float: left;
+} */
+
+.logo{
+    float: left;
+}
+
+.right{
+    float:right;
+}
+
+
+
+body {
+    font-size: 30px;
+    background-color: rgb(184, 195, 206);
+    /* background-image: url("../images/main.jpg"); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-color: grey;
+}
+
+a:active {
+    text-decoration-color: aqua;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .header li,
+    .footer li {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .right {
+      float: none;
+    }
+    .card{
+        float: none;
+        width: 100%;
+        margin: 10px;
+
+    }
+
+  }
